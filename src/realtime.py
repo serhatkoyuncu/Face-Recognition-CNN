@@ -128,7 +128,6 @@ while True:
             cv2.rectangle(frame, (x, y+h+5), (x+w, y+h+10), (200,200,200), 1)
             cv2.rectangle(frame, (x, y+h+5), (x+bar_w, y+h+10), color, -1)
 
-            print("Detected:", name, best_score)
 
         # FPS
         curr_time = time.time()

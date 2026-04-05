@@ -30,21 +30,25 @@ Gerçek zamanlı kamera üzerinden yüz tanıma yapan, embedding tabanlı face r
 
 ## 📁 Proje Yapısı
 
+```bash
 project/
-│
 ├── src/
-│ ├── realtime.py
-│ ├── utils.py
-│ └── config.py
-│
+│   ├── realtime.py
+│   ├── utils.py
+│   └── config.py
+│   └── generate_embeddings.py
+│   └── recognize.py
+│   └── test.jpg
+├── embeddings/
+│   ├── embeddings.pkl
 ├── dataset/
-│ ├── person1/
-│ ├── person2/
-│ └── person3/
-│
+│   ├── person1/
+│   ├── person2/
+│   └── person3/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 ---
 
@@ -75,6 +79,7 @@ pip install -r requirements.txt
 
 dataset/ klasörü içine her kişi için ayrı klasör oluştur:
 
+```bash
 dataset/
 ├── Serhat/
 │ ├── 1.jpg
@@ -83,8 +88,15 @@ dataset/
 ├── Ali/
 │ ├── 1.jpg
 │ ├── 2.jpg
+```
 
-### 5. Çalıştırma
+### 5. Embed Ekleme
+
+```bash
+python src/generate_embeddings.py
+```
+
+### 6. Çalıştırma
 
 ```bash
 python src/realtime.py

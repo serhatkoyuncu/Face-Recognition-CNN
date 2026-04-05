@@ -57,8 +57,8 @@ project/
 ### 1. Repository clone
 
 ```bash
-git clone <repo-url>
-cd project
+git clone https://github.com/serhatkoyuncu/Face-Recognition-CNN.git
+cd Face-Recognition-CNN
 ```
 
 ### 2. Virtual environment oluştur

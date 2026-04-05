@@ -19,7 +19,6 @@ face-env/
 *.h5
 *.pb
 *.onnx
-*.pkl
 *.npy
 
 # DeepFace / TensorFlow cache

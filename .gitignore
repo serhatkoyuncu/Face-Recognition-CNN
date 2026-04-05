@@ -14,6 +14,14 @@ env/
 face-env/
 
 # =========================
+# Dataset / Images (opsiyonel)
+# =========================
+dataset/
+*.jpg
+*.jpeg
+*.png
+
+# =========================
 # Model / Cache / Temp
 # =========================
 *.h5
@@ -47,3 +55,6 @@ face-env/
 # =========================
 .env
 .env.*
+
+embeddings.pkl
+*.pickle

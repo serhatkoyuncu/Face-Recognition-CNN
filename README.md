@@ -67,6 +67,7 @@ source face-env/bin/activate
 ### 3. Paketleri yükle
 
 ```bash
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
